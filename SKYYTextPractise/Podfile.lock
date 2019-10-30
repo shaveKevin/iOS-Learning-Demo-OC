@@ -1,0 +1,36 @@
+PODS:
+  - hpple (0.2.0)
+  - LGAlertView (2.0.13)
+  - Masonry (1.0.1)
+  - MWFeedParser (1.0.1):
+    - MWFeedParser/FeedParser (= 1.0.1)
+    - MWFeedParser/NSDate+InternetDateTime (= 1.0.1)
+    - MWFeedParser/NSString+HTML (= 1.0.1)
+  - MWFeedParser/FeedParser (1.0.1):
+    - MWFeedParser/NSDate+InternetDateTime
+    - MWFeedParser/NSString+HTML
+  - MWFeedParser/NSDate+InternetDateTime (1.0.1)
+  - MWFeedParser/NSString+HTML (1.0.1)
+  - RaptureXML (1.0.1)
+  - UIImage+SVG (0.1):
+    - RaptureXML (~> 1.0.1)
+  - YYText (1.0.5)
+
+DEPENDENCIES:
+  - hpple (~> 0.2.0)
+  - LGAlertView (~> 2.0.13)
+  - Masonry (~> 1.0.1)
+  - MWFeedParser
+  - UIImage+SVG (~> 0.1)
+  - YYText (~> 1.0.5)
+
+SPEC CHECKSUMS:
+  hpple: 3b765f96fc2cd56ad1a49aef6f7be5cb2aa64b57
+  LGAlertView: 9a5dcbf4f81b02b718083539d7f222280adc9547
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MWFeedParser: 2cf646014c1baf6ad1b08c480b40a08180079247
+  RaptureXML: b5c33c04c1a4adfd8ad0d5463329a31820596e82
+  UIImage+SVG: 23a2edbb60b0f4c083068963086e309ebd8be592
+  YYText: ac09660c9ccd9b817f409a20caa6f5587444d2ae
+
+COCOAPODS: 0.39.0
