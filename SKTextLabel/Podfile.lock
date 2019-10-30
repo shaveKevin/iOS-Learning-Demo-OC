@@ -1,0 +1,36 @@
+PODS:
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - Masonry (1.0.1)
+  - SVGKit (2.x):
+    - CocoaLumberjack (~> 2.x)
+  - YYText (1.0.5)
+
+DEPENDENCIES:
+  - Masonry (~> 1.0.1)
+  - SVGKit (from `https://github.com/SVGKit/SVGKit.git`, branch `2.0.0`)
+  - YYText (~> 1.0.5)
+
+EXTERNAL SOURCES:
+  SVGKit:
+    :branch: 2.0.0
+    :git: https://github.com/SVGKit/SVGKit.git
+
+CHECKOUT OPTIONS:
+  SVGKit:
+    :commit: 6887337bd2a4c78823ed73a6924d37cfb49abbf2
+    :git: https://github.com/SVGKit/SVGKit.git
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  SVGKit: 9c3f82b4405aca2dc4d9f307050ede8a6a92d052
+  YYText: ac09660c9ccd9b817f409a20caa6f5587444d2ae
+
+COCOAPODS: 0.39.0

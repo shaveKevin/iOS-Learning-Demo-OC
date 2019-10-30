@@ -1,0 +1,13 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+source 'https://github.com/CocoaPods/Specs.git'
+inhibit_all_warnings!
+target 'AllTextLabel' do
+pod 'YYText', '~> 1.0.5'
+pod 'Masonry', '~> 1.0.1'
+pod 'SVGKit', :git => 'https://github.com/SVGKit/SVGKit.git', :branch => '2.0.0'
+
+end
+
