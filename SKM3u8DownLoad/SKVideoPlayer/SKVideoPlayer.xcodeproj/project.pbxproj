@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C9B003420E323130029DC39 /* SKDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B003320E323130029DC39 /* SKDownloader.m */; };
+		2C9B003720E324140029DC39 /* NSURLSession+CorrectedResumeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B003520E324130029DC39 /* NSURLSession+CorrectedResumeData.m */; };
+		2CAFB34D20D90C9100594DE0 /* SKM3U8PlayListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAFB34C20D90C9100594DE0 /* SKM3U8PlayListModel.m */; };
+		2CAFE57520D0FA43005F868A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAFE57420D0FA43005F868A /* AppDelegate.m */; };
+		2CAFE57820D0FA43005F868A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAFE57720D0FA43005F868A /* ViewController.m */; };
+		2CAFE57B20D0FA43005F868A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAFE57920D0FA43005F868A /* Main.storyboard */; };
+		2CAFE57D20D0FA45005F868A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CAFE57C20D0FA45005F868A /* Assets.xcassets */; };
+		2CAFE58020D0FA45005F868A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CAFE57E20D0FA45005F868A /* LaunchScreen.storyboard */; };
+		2CAFE58320D0FA45005F868A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAFE58220D0FA45005F868A /* main.m */; };
+		2CB27A3D20D9F24400F2F4B5 /* SKOnlinePlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB27A3C20D9F24400F2F4B5 /* SKOnlinePlayVC.m */; };
+		2CB27A4020D9F25300F2F4B5 /* SKDownloadPlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB27A3F20D9F25300F2F4B5 /* SKDownloadPlayVC.m */; };
+		2CB27A4720DA3D2200F2F4B5 /* SKSingleDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB27A4620DA3D2200F2F4B5 /* SKSingleDownloader.m */; };
+		2CB27A4A20DA446000F2F4B5 /* SKSingleDownLoadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB27A4920DA446000F2F4B5 /* SKSingleDownLoadModel.m */; };
+		2CB27A5020DA4ED100F2F4B5 /* SKVideoDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB27A4F20DA4ED100F2F4B5 /* SKVideoDownloader.m */; };
+		2CB27A5320DA57BC00F2F4B5 /* SKM3U8FilePraseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB27A5220DA57BC00F2F4B5 /* SKM3U8FilePraseManager.m */; };
+		2CB27A5620DA5B5D00F2F4B5 /* SKM3U8FileDecodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB27A5520DA5B5D00F2F4B5 /* SKM3U8FileDecodeTool.m */; };
+		612B8EF6D3923F4A88DD18FC /* libPods-SKVideoPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A34EAD60AC8FEECDFB4B096A /* libPods-SKVideoPlayer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C9B003220E323130029DC39 /* SKDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKDownloader.h; sourceTree = "<group>"; };
+		2C9B003320E323130029DC39 /* SKDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKDownloader.m; sourceTree = "<group>"; };
+		2C9B003520E324130029DC39 /* NSURLSession+CorrectedResumeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+CorrectedResumeData.m"; sourceTree = "<group>"; };
+		2C9B003620E324130029DC39 /* NSURLSession+CorrectedResumeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+CorrectedResumeData.h"; sourceTree = "<group>"; };
+		2CA313B420E09A590036B470 /* SKHeaderFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKHeaderFile.h; sourceTree = "<group>"; };
+		2CA313B520E09A650036B470 /* SKMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKMacro.h; sourceTree = "<group>"; };
+		2CAFB34B20D90C9100594DE0 /* SKM3U8PlayListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKM3U8PlayListModel.h; sourceTree = "<group>"; };
+		2CAFB34C20D90C9100594DE0 /* SKM3U8PlayListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKM3U8PlayListModel.m; sourceTree = "<group>"; };
+		2CAFE57020D0FA43005F868A /* SKVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CAFE57320D0FA43005F868A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CAFE57420D0FA43005F868A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CAFE57620D0FA43005F868A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2CAFE57720D0FA43005F868A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2CAFE57A20D0FA43005F868A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CAFE57C20D0FA45005F868A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CAFE57F20D0FA45005F868A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CAFE58120D0FA45005F868A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CAFE58220D0FA45005F868A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CB27A3B20D9F24400F2F4B5 /* SKOnlinePlayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKOnlinePlayVC.h; sourceTree = "<group>"; };
+		2CB27A3C20D9F24400F2F4B5 /* SKOnlinePlayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKOnlinePlayVC.m; sourceTree = "<group>"; };
+		2CB27A3E20D9F25300F2F4B5 /* SKDownloadPlayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKDownloadPlayVC.h; sourceTree = "<group>"; };
+		2CB27A3F20D9F25300F2F4B5 /* SKDownloadPlayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKDownloadPlayVC.m; sourceTree = "<group>"; };
+		2CB27A4520DA3D2200F2F4B5 /* SKSingleDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKSingleDownloader.h; sourceTree = "<group>"; };
+		2CB27A4620DA3D2200F2F4B5 /* SKSingleDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKSingleDownloader.m; sourceTree = "<group>"; };
+		2CB27A4820DA446000F2F4B5 /* SKSingleDownLoadModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKSingleDownLoadModel.h; sourceTree = "<group>"; };
+		2CB27A4920DA446000F2F4B5 /* SKSingleDownLoadModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKSingleDownLoadModel.m; sourceTree = "<group>"; };
+		2CB27A4E20DA4ED100F2F4B5 /* SKVideoDownloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKVideoDownloader.h; sourceTree = "<group>"; };
+		2CB27A4F20DA4ED100F2F4B5 /* SKVideoDownloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKVideoDownloader.m; sourceTree = "<group>"; };
+		2CB27A5120DA57BC00F2F4B5 /* SKM3U8FilePraseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKM3U8FilePraseManager.h; sourceTree = "<group>"; };
+		2CB27A5220DA57BC00F2F4B5 /* SKM3U8FilePraseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKM3U8FilePraseManager.m; sourceTree = "<group>"; };
+		2CB27A5420DA5B5D00F2F4B5 /* SKM3U8FileDecodeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKM3U8FileDecodeTool.h; sourceTree = "<group>"; };
+		2CB27A5520DA5B5D00F2F4B5 /* SKM3U8FileDecodeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKM3U8FileDecodeTool.m; sourceTree = "<group>"; };
+		959676185C18DA41FDA7DECC /* Pods-SKVideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKVideoPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKVideoPlayer/Pods-SKVideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		A34EAD60AC8FEECDFB4B096A /* libPods-SKVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKVideoPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB31A12C4E188DE2F25B1185 /* Pods-SKVideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKVideoPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKVideoPlayer/Pods-SKVideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CAFE56D20D0FA43005F868A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				612B8EF6D3923F4A88DD18FC /* libPods-SKVideoPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CAFB34A20D90C5F00594DE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CAFB34B20D90C9100594DE0 /* SKM3U8PlayListModel.h */,
+				2CAFB34C20D90C9100594DE0 /* SKM3U8PlayListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2CAFE56720D0FA43005F868A = {
+			isa = PBXGroup;
+			children = (
+				2CAFE57220D0FA43005F868A /* SKVideoPlayer */,
+				2CAFE57120D0FA43005F868A /* Products */,
+				E9181BE13C9AE5DF2D700620 /* Pods */,
+				4EF8F1469E04180811B022DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2CAFE57120D0FA43005F868A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CAFE57020D0FA43005F868A /* SKVideoPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CAFE57220D0FA43005F868A /* SKVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				2CAFE57320D0FA43005F868A /* AppDelegate.h */,
+				2CAFE57420D0FA43005F868A /* AppDelegate.m */,
+				2CAFE57620D0FA43005F868A /* ViewController.h */,
+				2CAFE57720D0FA43005F868A /* ViewController.m */,
+				2CB27A3B20D9F24400F2F4B5 /* SKOnlinePlayVC.h */,
+				2CB27A3C20D9F24400F2F4B5 /* SKOnlinePlayVC.m */,
+				2CB27A3E20D9F25300F2F4B5 /* SKDownloadPlayVC.h */,
+				2CB27A3F20D9F25300F2F4B5 /* SKDownloadPlayVC.m */,
+				2CA313B420E09A590036B470 /* SKHeaderFile.h */,
+				2CA313B520E09A650036B470 /* SKMacro.h */,
+				2CB27A4120DA3BF700F2F4B5 /* DownLoadTool */,
+				2CAFB34A20D90C5F00594DE0 /* Model */,
+				2CAFE57920D0FA43005F868A /* Main.storyboard */,
+				2CAFE57C20D0FA45005F868A /* Assets.xcassets */,
+				2CAFE57E20D0FA45005F868A /* LaunchScreen.storyboard */,
+				2CAFE58120D0FA45005F868A /* Info.plist */,
+				2CAFE58220D0FA45005F868A /* main.m */,
+			);
+			path = SKVideoPlayer;
+			sourceTree = "<group>";
+		};
+		2CB27A4120DA3BF700F2F4B5 /* DownLoadTool */ = {
+			isa = PBXGroup;
+			children = (
+				2CB27A4520DA3D2200F2F4B5 /* SKSingleDownloader.h */,
+				2CB27A4620DA3D2200F2F4B5 /* SKSingleDownloader.m */,
+				2CB27A4820DA446000F2F4B5 /* SKSingleDownLoadModel.h */,
+				2CB27A4920DA446000F2F4B5 /* SKSingleDownLoadModel.m */,
+				2CB27A4E20DA4ED100F2F4B5 /* SKVideoDownloader.h */,
+				2CB27A4F20DA4ED100F2F4B5 /* SKVideoDownloader.m */,
+				2CB27A5120DA57BC00F2F4B5 /* SKM3U8FilePraseManager.h */,
+				2CB27A5220DA57BC00F2F4B5 /* SKM3U8FilePraseManager.m */,
+				2CB27A5420DA5B5D00F2F4B5 /* SKM3U8FileDecodeTool.h */,
+				2CB27A5520DA5B5D00F2F4B5 /* SKM3U8FileDecodeTool.m */,
+				2C9B003220E323130029DC39 /* SKDownloader.h */,
+				2C9B003320E323130029DC39 /* SKDownloader.m */,
+				2C9B003620E324130029DC39 /* NSURLSession+CorrectedResumeData.h */,
+				2C9B003520E324130029DC39 /* NSURLSession+CorrectedResumeData.m */,
+			);
+			path = DownLoadTool;
+			sourceTree = "<group>";
+		};
+		4EF8F1469E04180811B022DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A34EAD60AC8FEECDFB4B096A /* libPods-SKVideoPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9181BE13C9AE5DF2D700620 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB31A12C4E188DE2F25B1185 /* Pods-SKVideoPlayer.debug.xcconfig */,
+				959676185C18DA41FDA7DECC /* Pods-SKVideoPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CAFE56F20D0FA43005F868A /* SKVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CAFE58620D0FA45005F868A /* Build configuration list for PBXNativeTarget "SKVideoPlayer" */;
+			buildPhases = (
+				800376BDFB042C5E139A8D06 /* [CP] Check Pods Manifest.lock */,
+				2CAFE56C20D0FA43005F868A /* Sources */,
+				2CAFE56D20D0FA43005F868A /* Frameworks */,
+				2CAFE56E20D0FA43005F868A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKVideoPlayer;
+			productName = SKVideoPlayer;
+			productReference = 2CAFE57020D0FA43005F868A /* SKVideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CAFE56820D0FA43005F868A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = shavekevin;
+				TargetAttributes = {
+					2CAFE56F20D0FA43005F868A = {
+						CreatedOnToolsVersion = 9.4;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 2CAFE56B20D0FA43005F868A /* Build configuration list for PBXProject "SKVideoPlayer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CAFE56720D0FA43005F868A;
+			productRefGroup = 2CAFE57120D0FA43005F868A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CAFE56F20D0FA43005F868A /* SKVideoPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CAFE56E20D0FA43005F868A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAFE58020D0FA45005F868A /* LaunchScreen.storyboard in Resources */,
+				2CAFE57D20D0FA45005F868A /* Assets.xcassets in Resources */,
+				2CAFE57B20D0FA43005F868A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		800376BDFB042C5E139A8D06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKVideoPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CAFE56C20D0FA43005F868A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAFE57820D0FA43005F868A /* ViewController.m in Sources */,
+				2CAFE58320D0FA45005F868A /* main.m in Sources */,
+				2CB27A3D20D9F24400F2F4B5 /* SKOnlinePlayVC.m in Sources */,
+				2CB27A4A20DA446000F2F4B5 /* SKSingleDownLoadModel.m in Sources */,
+				2CAFB34D20D90C9100594DE0 /* SKM3U8PlayListModel.m in Sources */,
+				2CB27A5020DA4ED100F2F4B5 /* SKVideoDownloader.m in Sources */,
+				2C9B003420E323130029DC39 /* SKDownloader.m in Sources */,
+				2CB27A4020D9F25300F2F4B5 /* SKDownloadPlayVC.m in Sources */,
+				2CB27A5620DA5B5D00F2F4B5 /* SKM3U8FileDecodeTool.m in Sources */,
+				2CB27A5320DA57BC00F2F4B5 /* SKM3U8FilePraseManager.m in Sources */,
+				2C9B003720E324140029DC39 /* NSURLSession+CorrectedResumeData.m in Sources */,
+				2CB27A4720DA3D2200F2F4B5 /* SKSingleDownloader.m in Sources */,
+				2CAFE57520D0FA43005F868A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2CAFE57920D0FA43005F868A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CAFE57A20D0FA43005F868A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CAFE57E20D0FA45005F868A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CAFE57F20D0FA45005F868A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CAFE58420D0FA45005F868A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2CAFE58520D0FA45005F868A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CAFE58720D0FA45005F868A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB31A12C4E188DE2F25B1185 /* Pods-SKVideoPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = M6834L34N9;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SKVideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shavekevin.socialapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a81425bf-e02a-4b3c-8574-7ec35ee1374a";
+				PROVISIONING_PROFILE_SPECIFIER = com.socialappNS;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2CAFE58820D0FA45005F868A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 959676185C18DA41FDA7DECC /* Pods-SKVideoPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = M6834L34N9;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SKVideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shavekevin.socialapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a81425bf-e02a-4b3c-8574-7ec35ee1374a";
+				PROVISIONING_PROFILE_SPECIFIER = com.socialappNS;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CAFE56B20D0FA43005F868A /* Build configuration list for PBXProject "SKVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAFE58420D0FA45005F868A /* Debug */,
+				2CAFE58520D0FA45005F868A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CAFE58620D0FA45005F868A /* Build configuration list for PBXNativeTarget "SKVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CAFE58720D0FA45005F868A /* Debug */,
+				2CAFE58820D0FA45005F868A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CAFE56820D0FA43005F868A /* Project object */;
+}
