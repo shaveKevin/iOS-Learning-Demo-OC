@@ -59,6 +59,7 @@
         // block调用时刻：每当有信号发出数据，就会调用block.
         NSLog(@"接收到数据:%@",x);
     }];
+    
 }
 
 - (void)didReceiveMemoryWarning {

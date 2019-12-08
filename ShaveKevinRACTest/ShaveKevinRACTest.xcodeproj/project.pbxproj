@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27F2723A9439310C9746BC05 /* Pods_ShaveKevinRACTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C125CBF49AEE995BDD18639 /* Pods_ShaveKevinRACTest.framework */; };
 		2C35FA271C4F5B44009BB978 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C35FA261C4F5B44009BB978 /* main.m */; };
 		2C35FA2A1C4F5B44009BB978 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C35FA291C4F5B44009BB978 /* AppDelegate.m */; };
 		2C35FA2D1C4F5B44009BB978 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C35FA2C1C4F5B44009BB978 /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		2C35FA351C4F5B44009BB978 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C35FA331C4F5B44009BB978 /* LaunchScreen.storyboard */; };
 		2C35FA401C4F5B44009BB978 /* ShaveKevinRACTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C35FA3F1C4F5B44009BB978 /* ShaveKevinRACTestTests.m */; };
 		2C35FA4B1C4F5B44009BB978 /* ShaveKevinRACTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C35FA4A1C4F5B44009BB978 /* ShaveKevinRACTestUITests.m */; };
-		8ED786F12B518F8767109D6D /* Pods_ShaveKevinRACTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC22D0FCAFC1BD582C38B535 /* Pods_ShaveKevinRACTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AA6F34B5F350951776FB2BD /* Pods-ShaveKevinRACTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShaveKevinRACTest.release.xcconfig"; path = "Target Support Files/Pods-ShaveKevinRACTest/Pods-ShaveKevinRACTest.release.xcconfig"; sourceTree = "<group>"; };
 		2C35FA221C4F5B44009BB978 /* ShaveKevinRACTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShaveKevinRACTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C35FA261C4F5B44009BB978 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2C35FA281C4F5B44009BB978 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,9 +53,8 @@
 		2C35FA461C4F5B44009BB978 /* ShaveKevinRACTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShaveKevinRACTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C35FA4A1C4F5B44009BB978 /* ShaveKevinRACTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShaveKevinRACTestUITests.m; sourceTree = "<group>"; };
 		2C35FA4C1C4F5B44009BB978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5182E58682A0F9F5DAEEEF03 /* Pods-ShaveKevinRACTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShaveKevinRACTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShaveKevinRACTest/Pods-ShaveKevinRACTest.debug.xcconfig"; sourceTree = "<group>"; };
-		AAB1CD68E9CF08E63B18FAC3 /* Pods-ShaveKevinRACTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShaveKevinRACTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShaveKevinRACTest/Pods-ShaveKevinRACTest.release.xcconfig"; sourceTree = "<group>"; };
-		DC22D0FCAFC1BD582C38B535 /* Pods_ShaveKevinRACTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShaveKevinRACTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C125CBF49AEE995BDD18639 /* Pods_ShaveKevinRACTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShaveKevinRACTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F880547C78569CDE1B5B692A /* Pods-ShaveKevinRACTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShaveKevinRACTest.debug.xcconfig"; path = "Target Support Files/Pods-ShaveKevinRACTest/Pods-ShaveKevinRACTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8ED786F12B518F8767109D6D /* Pods_ShaveKevinRACTest.framework in Frameworks */,
+				27F2723A9439310C9746BC05 /* Pods_ShaveKevinRACTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1007AF105FD78C499907F0A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C125CBF49AEE995BDD18639 /* Pods_ShaveKevinRACTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2C35FA191C4F5B44009BB978 = {
 			isa = PBXGroup;
 			children = (
@@ -90,8 +98,8 @@
 				2C35FA3E1C4F5B44009BB978 /* ShaveKevinRACTestTests */,
 				2C35FA491C4F5B44009BB978 /* ShaveKevinRACTestUITests */,
 				2C35FA231C4F5B44009BB978 /* Products */,
-				D7487B7D4E50DEDB3960FF2C /* Pods */,
-				5540399E05A80A5A5BFACDCF /* Frameworks */,
+				AD18E6A3CF9CF6C31D4131C3 /* Pods */,
+				1007AF105FD78C499907F0A0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,21 +155,14 @@
 			path = ShaveKevinRACTestUITests;
 			sourceTree = "<group>";
 		};
-		5540399E05A80A5A5BFACDCF /* Frameworks */ = {
+		AD18E6A3CF9CF6C31D4131C3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DC22D0FCAFC1BD582C38B535 /* Pods_ShaveKevinRACTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D7487B7D4E50DEDB3960FF2C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5182E58682A0F9F5DAEEEF03 /* Pods-ShaveKevinRACTest.debug.xcconfig */,
-				AAB1CD68E9CF08E63B18FAC3 /* Pods-ShaveKevinRACTest.release.xcconfig */,
+				F880547C78569CDE1B5B692A /* Pods-ShaveKevinRACTest.debug.xcconfig */,
+				2AA6F34B5F350951776FB2BD /* Pods-ShaveKevinRACTest.release.xcconfig */,
 			);
 			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,12 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C35FA4F1C4F5B44009BB978 /* Build configuration list for PBXNativeTarget "ShaveKevinRACTest" */;
 			buildPhases = (
-				9A2B8840F1136DD661FFAC2F /* Check Pods Manifest.lock */,
+				031DD397EC0D95898ABFE852 /* [CP] Check Pods Manifest.lock */,
 				2C35FA1E1C4F5B44009BB978 /* Sources */,
 				2C35FA1F1C4F5B44009BB978 /* Frameworks */,
 				2C35FA201C4F5B44009BB978 /* Resources */,
-				5F3F2AFED7EFE59BF91034B2 /* Embed Pods Frameworks */,
-				06A4830BF1D485837F9FF480 /* Copy Pods Resources */,
+				89239D1C247368DFC271F060 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -293,49 +293,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		06A4830BF1D485837F9FF480 /* Copy Pods Resources */ = {
+		031DD397EC0D95898ABFE852 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShaveKevinRACTest-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShaveKevinRACTest/Pods-ShaveKevinRACTest-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5F3F2AFED7EFE59BF91034B2 /* Embed Pods Frameworks */ = {
+		89239D1C247368DFC271F060 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShaveKevinRACTest/Pods-ShaveKevinRACTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShaveKevinRACTest/Pods-ShaveKevinRACTest-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9A2B8840F1136DD661FFAC2F /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShaveKevinRACTest/Pods-ShaveKevinRACTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -484,7 +479,7 @@
 		};
 		2C35FA501C4F5B44009BB978 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5182E58682A0F9F5DAEEEF03 /* Pods-ShaveKevinRACTest.debug.xcconfig */;
+			baseConfigurationReference = F880547C78569CDE1B5B692A /* Pods-ShaveKevinRACTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShaveKevinRACTest/Info.plist;
@@ -496,7 +491,7 @@
 		};
 		2C35FA511C4F5B44009BB978 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAB1CD68E9CF08E63B18FAC3 /* Pods-ShaveKevinRACTest.release.xcconfig */;
+			baseConfigurationReference = 2AA6F34B5F350951776FB2BD /* Pods-ShaveKevinRACTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShaveKevinRACTest/Info.plist;
