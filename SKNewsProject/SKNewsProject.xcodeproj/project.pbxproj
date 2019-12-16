@@ -1,0 +1,1006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C412AF71DBEED33008A1E36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C412AF61DBEED33008A1E36 /* Assets.xcassets */; };
+		2C62993B1F412E7A001E8536 /* SKResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C62993A1F412E7A001E8536 /* SKResult.m */; };
+		2C62993E1F412F82001E8536 /* SKNetWorkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C62993D1F412F82001E8536 /* SKNetWorkRequest.m */; };
+		2C6299481F413F13001E8536 /* SKDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6299471F413F13001E8536 /* SKDateFormatter.m */; };
+		2C62994E1F416D8F001E8536 /* SKYYResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C62994D1F416D8F001E8536 /* SKYYResult.m */; };
+		2C6299541F41859C001E8536 /* SKBeautyENWordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C6299531F41859C001E8536 /* SKBeautyENWordCell.m */; };
+		2C9AAA5C1F21CBCE00A10762 /* SKDiscoveryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA081F21CBCE00A10762 /* SKDiscoveryVC.m */; };
+		2C9AAA5D1F21CBCE00A10762 /* SKTarget_PushFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA0C1F21CBCE00A10762 /* SKTarget_PushFile.m */; };
+		2C9AAA5E1F21CBCE00A10762 /* SKModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA0F1F21CBCE00A10762 /* SKModel.m */; };
+		2C9AAA5F1F21CBCE00A10762 /* SKTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA121F21CBCE00A10762 /* SKTestVC.m */; };
+		2C9AAA601F21CBCE00A10762 /* SKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA151F21CBCE00A10762 /* SKView.m */; };
+		2C9AAA611F21CBCE00A10762 /* SKHomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA181F21CBCE00A10762 /* SKHomePageVC.m */; };
+		2C9AAA621F21CBCE00A10762 /* SKMyHomePageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA1B1F21CBCE00A10762 /* SKMyHomePageVC.m */; };
+		2C9AAA631F21CBCE00A10762 /* NSDate+GetTimeStampMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA201F21CBCE00A10762 /* NSDate+GetTimeStampMethods.m */; };
+		2C9AAA641F21CBCE00A10762 /* NSString+getIPAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA221F21CBCE00A10762 /* NSString+getIPAddress.m */; };
+		2C9AAA651F21CBCE00A10762 /* NSString+MD5Methods.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA241F21CBCE00A10762 /* NSString+MD5Methods.m */; };
+		2C9AAA661F21CBCE00A10762 /* UIBezierPath+Expands.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA271F21CBCE00A10762 /* UIBezierPath+Expands.m */; };
+		2C9AAA671F21CBCE00A10762 /* UIButton+ExpandHitPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA291F21CBCE00A10762 /* UIButton+ExpandHitPosition.m */; };
+		2C9AAA681F21CBCE00A10762 /* UIImage+CompressMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA2B1F21CBCE00A10762 /* UIImage+CompressMethods.m */; };
+		2C9AAA691F21CBCE00A10762 /* UIImage+Expands.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA2D1F21CBCE00A10762 /* UIImage+Expands.m */; };
+		2C9AAA6A1F21CBCE00A10762 /* SKUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA311F21CBCE00A10762 /* SKUINavigationController.m */; };
+		2C9AAA6B1F21CBCE00A10762 /* SKUITabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA331F21CBCE00A10762 /* SKUITabBarController.m */; };
+		2C9AAA6C1F21CBCE00A10762 /* SKRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA371F21CBCE00A10762 /* SKRootVC.m */; };
+		2C9AAA6D1F21CBCE00A10762 /* SKVCIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA3A1F21CBCE00A10762 /* SKVCIntercepter.m */; };
+		2C9AAA6E1F21CBCE00A10762 /* SKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA3F1F21CBCE00A10762 /* SKAppDelegate.m */; };
+		2C9AAA701F21CBCE00A10762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA4B1F21CBCE00A10762 /* main.m */; };
+		2C9AAA711F21CBCE00A10762 /* SKDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA501F21CBCE00A10762 /* SKDispatcher.m */; };
+		2C9AAA721F21CBCE00A10762 /* SKDispatcherManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA521F21CBCE00A10762 /* SKDispatcherManager.m */; };
+		2C9AAA731F21CBCE00A10762 /* SKDispatcher+TestVCActions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA551F21CBCE00A10762 /* SKDispatcher+TestVCActions.m */; };
+		2C9AAA741F21CBCE00A10762 /* SKJSONDicTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA581F21CBCE00A10762 /* SKJSONDicTransition.m */; };
+		2C9AAA751F21CBCE00A10762 /* SKCheckTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9AAA5B1F21CBCE00A10762 /* SKCheckTool.m */; };
+		2CB099B61F43440D002C5533 /* SKBeautyENWordTableViewHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB099B31F43440D002C5533 /* SKBeautyENWordTableViewHandle.m */; };
+		2CB099B71F43440D002C5533 /* SKBeautyENWordVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB099B51F43440D002C5533 /* SKBeautyENWordVC.m */; };
+		2CB099BB1F434461002C5533 /* SKZodiacChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB099BA1F434461002C5533 /* SKZodiacChartVC.m */; };
+		2CB099BE1F434484002C5533 /* SKZodiacChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB099BD1F434484002C5533 /* SKZodiacChartView.m */; };
+		2CB099C61F43453B002C5533 /* SKBeautyENWordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB099C11F43453B002C5533 /* SKBeautyENWordModel.m */; };
+		2CB099C71F43453B002C5533 /* SKBeautyENWordRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB099C31F43453B002C5533 /* SKBeautyENWordRequest.m */; };
+		2CB099C81F43453B002C5533 /* SKBeautyENWordResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB099C51F43453B002C5533 /* SKBeautyENWordResult.m */; };
+		2CB099CF1F434582002C5533 /* SKZodiacChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB099CE1F434582002C5533 /* SKZodiacChartModel.m */; };
+		2CB099D21F4345D4002C5533 /* SKZodiacChartRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB099D11F4345D4002C5533 /* SKZodiacChartRequest.m */; };
+		2CB099D51F434E69002C5533 /* SKZodiacChartResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB099D41F434E69002C5533 /* SKZodiacChartResult.m */; };
+		F86BF5D3BCACB39F9F0678AD /* libPods-SKNewsProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 238E826C4D7E4CA40FF124F6 /* libPods-SKNewsProject.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		238E826C4D7E4CA40FF124F6 /* libPods-SKNewsProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SKNewsProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C412AE71DBEED33008A1E36 /* SKNewsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKNewsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C412AF61DBEED33008A1E36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C412AF91DBEED34008A1E36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C6299391F412E7A001E8536 /* SKResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKResult.h; sourceTree = "<group>"; };
+		2C62993A1F412E7A001E8536 /* SKResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKResult.m; sourceTree = "<group>"; };
+		2C62993C1F412F82001E8536 /* SKNetWorkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKNetWorkRequest.h; sourceTree = "<group>"; };
+		2C62993D1F412F82001E8536 /* SKNetWorkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKNetWorkRequest.m; sourceTree = "<group>"; };
+		2C6299461F413F13001E8536 /* SKDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDateFormatter.h; sourceTree = "<group>"; };
+		2C6299471F413F13001E8536 /* SKDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDateFormatter.m; sourceTree = "<group>"; };
+		2C62994C1F416D8F001E8536 /* SKYYResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKYYResult.h; sourceTree = "<group>"; };
+		2C62994D1F416D8F001E8536 /* SKYYResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKYYResult.m; sourceTree = "<group>"; };
+		2C6299521F41859C001E8536 /* SKBeautyENWordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBeautyENWordCell.h; sourceTree = "<group>"; };
+		2C6299531F41859C001E8536 /* SKBeautyENWordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBeautyENWordCell.m; sourceTree = "<group>"; };
+		2C9AAA071F21CBCE00A10762 /* SKDiscoveryVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDiscoveryVC.h; sourceTree = "<group>"; };
+		2C9AAA081F21CBCE00A10762 /* SKDiscoveryVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDiscoveryVC.m; sourceTree = "<group>"; };
+		2C9AAA0B1F21CBCE00A10762 /* SKTarget_PushFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTarget_PushFile.h; sourceTree = "<group>"; };
+		2C9AAA0C1F21CBCE00A10762 /* SKTarget_PushFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTarget_PushFile.m; sourceTree = "<group>"; };
+		2C9AAA0E1F21CBCE00A10762 /* SKModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKModel.h; sourceTree = "<group>"; };
+		2C9AAA0F1F21CBCE00A10762 /* SKModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKModel.m; sourceTree = "<group>"; };
+		2C9AAA111F21CBCE00A10762 /* SKTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTestVC.h; sourceTree = "<group>"; };
+		2C9AAA121F21CBCE00A10762 /* SKTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTestVC.m; sourceTree = "<group>"; };
+		2C9AAA141F21CBCE00A10762 /* SKView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKView.h; sourceTree = "<group>"; };
+		2C9AAA151F21CBCE00A10762 /* SKView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKView.m; sourceTree = "<group>"; };
+		2C9AAA171F21CBCE00A10762 /* SKHomePageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKHomePageVC.h; sourceTree = "<group>"; };
+		2C9AAA181F21CBCE00A10762 /* SKHomePageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKHomePageVC.m; sourceTree = "<group>"; };
+		2C9AAA1A1F21CBCE00A10762 /* SKMyHomePageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMyHomePageVC.h; sourceTree = "<group>"; };
+		2C9AAA1B1F21CBCE00A10762 /* SKMyHomePageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMyHomePageVC.m; sourceTree = "<group>"; };
+		2C9AAA1F1F21CBCE00A10762 /* NSDate+GetTimeStampMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+GetTimeStampMethods.h"; sourceTree = "<group>"; };
+		2C9AAA201F21CBCE00A10762 /* NSDate+GetTimeStampMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+GetTimeStampMethods.m"; sourceTree = "<group>"; };
+		2C9AAA211F21CBCE00A10762 /* NSString+getIPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+getIPAddress.h"; sourceTree = "<group>"; };
+		2C9AAA221F21CBCE00A10762 /* NSString+getIPAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+getIPAddress.m"; sourceTree = "<group>"; };
+		2C9AAA231F21CBCE00A10762 /* NSString+MD5Methods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Methods.h"; sourceTree = "<group>"; };
+		2C9AAA241F21CBCE00A10762 /* NSString+MD5Methods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Methods.m"; sourceTree = "<group>"; };
+		2C9AAA261F21CBCE00A10762 /* UIBezierPath+Expands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+Expands.h"; sourceTree = "<group>"; };
+		2C9AAA271F21CBCE00A10762 /* UIBezierPath+Expands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+Expands.m"; sourceTree = "<group>"; };
+		2C9AAA281F21CBCE00A10762 /* UIButton+ExpandHitPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ExpandHitPosition.h"; sourceTree = "<group>"; };
+		2C9AAA291F21CBCE00A10762 /* UIButton+ExpandHitPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ExpandHitPosition.m"; sourceTree = "<group>"; };
+		2C9AAA2A1F21CBCE00A10762 /* UIImage+CompressMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CompressMethods.h"; sourceTree = "<group>"; };
+		2C9AAA2B1F21CBCE00A10762 /* UIImage+CompressMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CompressMethods.m"; sourceTree = "<group>"; };
+		2C9AAA2C1F21CBCE00A10762 /* UIImage+Expands.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Expands.h"; sourceTree = "<group>"; };
+		2C9AAA2D1F21CBCE00A10762 /* UIImage+Expands.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Expands.m"; sourceTree = "<group>"; };
+		2C9AAA301F21CBCE00A10762 /* SKUINavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKUINavigationController.h; sourceTree = "<group>"; };
+		2C9AAA311F21CBCE00A10762 /* SKUINavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKUINavigationController.m; sourceTree = "<group>"; };
+		2C9AAA321F21CBCE00A10762 /* SKUITabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKUITabBarController.h; sourceTree = "<group>"; };
+		2C9AAA331F21CBCE00A10762 /* SKUITabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKUITabBarController.m; sourceTree = "<group>"; };
+		2C9AAA361F21CBCE00A10762 /* SKRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKRootVC.h; sourceTree = "<group>"; };
+		2C9AAA371F21CBCE00A10762 /* SKRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKRootVC.m; sourceTree = "<group>"; };
+		2C9AAA391F21CBCE00A10762 /* SKVCIntercepter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKVCIntercepter.h; sourceTree = "<group>"; };
+		2C9AAA3A1F21CBCE00A10762 /* SKVCIntercepter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKVCIntercepter.m; sourceTree = "<group>"; };
+		2C9AAA3E1F21CBCE00A10762 /* SKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKAppDelegate.h; sourceTree = "<group>"; };
+		2C9AAA3F1F21CBCE00A10762 /* SKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKAppDelegate.m; sourceTree = "<group>"; };
+		2C9AAA411F21CBCE00A10762 /* SKDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDebug.h; sourceTree = "<group>"; };
+		2C9AAA421F21CBCE00A10762 /* SKEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKEnum.h; sourceTree = "<group>"; };
+		2C9AAA431F21CBCE00A10762 /* SKHeadFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKHeadFile.h; sourceTree = "<group>"; };
+		2C9AAA441F21CBCE00A10762 /* SKMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMacro.h; sourceTree = "<group>"; };
+		2C9AAA451F21CBCE00A10762 /* SKResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKResource.h; sourceTree = "<group>"; };
+		2C9AAA461F21CBCE00A10762 /* SKShareKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKShareKey.h; sourceTree = "<group>"; };
+		2C9AAA471F21CBCE00A10762 /* SKUserDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKUserDefault.h; sourceTree = "<group>"; };
+		2C9AAA491F21CBCE00A10762 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C9AAA4B1F21CBCE00A10762 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C9AAA4F1F21CBCE00A10762 /* SKDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDispatcher.h; sourceTree = "<group>"; };
+		2C9AAA501F21CBCE00A10762 /* SKDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDispatcher.m; sourceTree = "<group>"; };
+		2C9AAA511F21CBCE00A10762 /* SKDispatcherManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDispatcherManager.h; sourceTree = "<group>"; };
+		2C9AAA521F21CBCE00A10762 /* SKDispatcherManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDispatcherManager.m; sourceTree = "<group>"; };
+		2C9AAA541F21CBCE00A10762 /* SKDispatcher+TestVCActions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKDispatcher+TestVCActions.h"; sourceTree = "<group>"; };
+		2C9AAA551F21CBCE00A10762 /* SKDispatcher+TestVCActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKDispatcher+TestVCActions.m"; sourceTree = "<group>"; };
+		2C9AAA571F21CBCE00A10762 /* SKJSONDicTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKJSONDicTransition.h; sourceTree = "<group>"; };
+		2C9AAA581F21CBCE00A10762 /* SKJSONDicTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKJSONDicTransition.m; sourceTree = "<group>"; };
+		2C9AAA5A1F21CBCE00A10762 /* SKCheckTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCheckTool.h; sourceTree = "<group>"; };
+		2C9AAA5B1F21CBCE00A10762 /* SKCheckTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCheckTool.m; sourceTree = "<group>"; };
+		2CB099B21F43440D002C5533 /* SKBeautyENWordTableViewHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBeautyENWordTableViewHandle.h; sourceTree = "<group>"; };
+		2CB099B31F43440D002C5533 /* SKBeautyENWordTableViewHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBeautyENWordTableViewHandle.m; sourceTree = "<group>"; };
+		2CB099B41F43440D002C5533 /* SKBeautyENWordVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBeautyENWordVC.h; sourceTree = "<group>"; };
+		2CB099B51F43440D002C5533 /* SKBeautyENWordVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBeautyENWordVC.m; sourceTree = "<group>"; };
+		2CB099B91F434461002C5533 /* SKZodiacChartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKZodiacChartVC.h; sourceTree = "<group>"; };
+		2CB099BA1F434461002C5533 /* SKZodiacChartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKZodiacChartVC.m; sourceTree = "<group>"; };
+		2CB099BC1F434484002C5533 /* SKZodiacChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKZodiacChartView.h; sourceTree = "<group>"; };
+		2CB099BD1F434484002C5533 /* SKZodiacChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKZodiacChartView.m; sourceTree = "<group>"; };
+		2CB099C01F43453B002C5533 /* SKBeautyENWordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBeautyENWordModel.h; sourceTree = "<group>"; };
+		2CB099C11F43453B002C5533 /* SKBeautyENWordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBeautyENWordModel.m; sourceTree = "<group>"; };
+		2CB099C21F43453B002C5533 /* SKBeautyENWordRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBeautyENWordRequest.h; sourceTree = "<group>"; };
+		2CB099C31F43453B002C5533 /* SKBeautyENWordRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBeautyENWordRequest.m; sourceTree = "<group>"; };
+		2CB099C41F43453B002C5533 /* SKBeautyENWordResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBeautyENWordResult.h; sourceTree = "<group>"; };
+		2CB099C51F43453B002C5533 /* SKBeautyENWordResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBeautyENWordResult.m; sourceTree = "<group>"; };
+		2CB099CD1F434582002C5533 /* SKZodiacChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKZodiacChartModel.h; sourceTree = "<group>"; };
+		2CB099CE1F434582002C5533 /* SKZodiacChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKZodiacChartModel.m; sourceTree = "<group>"; };
+		2CB099D01F4345D4002C5533 /* SKZodiacChartRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKZodiacChartRequest.h; sourceTree = "<group>"; };
+		2CB099D11F4345D4002C5533 /* SKZodiacChartRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKZodiacChartRequest.m; sourceTree = "<group>"; };
+		2CB099D31F434E69002C5533 /* SKZodiacChartResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKZodiacChartResult.h; sourceTree = "<group>"; };
+		2CB099D41F434E69002C5533 /* SKZodiacChartResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKZodiacChartResult.m; sourceTree = "<group>"; };
+		73726727775275F366F45C42 /* Pods-SKNewsProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKNewsProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SKNewsProject/Pods-SKNewsProject.release.xcconfig"; sourceTree = "<group>"; };
+		9B7A74799440632AFBDF1358 /* Pods-SKNewsProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKNewsProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SKNewsProject/Pods-SKNewsProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C412AE41DBEED33008A1E36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86BF5D3BCACB39F9F0678AD /* libPods-SKNewsProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C412ADE1DBEED33008A1E36 = {
+			isa = PBXGroup;
+			children = (
+				2C412AE91DBEED33008A1E36 /* SKNewsProject */,
+				2C412AE81DBEED33008A1E36 /* Products */,
+				A06BB3A25791F4459B66E221 /* Pods */,
+				FAD7534C4C75CE1CE1A64280 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C412AE81DBEED33008A1E36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C412AE71DBEED33008A1E36 /* SKNewsProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C412AE91DBEED33008A1E36 /* SKNewsProject */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AA9FC1F21CBCE00A10762 /* Class */,
+				2C412AF61DBEED33008A1E36 /* Assets.xcassets */,
+				2C412AF81DBEED34008A1E36 /* LaunchScreen.storyboard */,
+				2C412AEA1DBEED33008A1E36 /* Supporting Files */,
+			);
+			path = SKNewsProject;
+			sourceTree = "<group>";
+		};
+		2C412AEA1DBEED33008A1E36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C6299371F412A6D001E8536 /* SKNetworkRequestTool */ = {
+			isa = PBXGroup;
+			children = (
+				2C62993C1F412F82001E8536 /* SKNetWorkRequest.h */,
+				2C62993D1F412F82001E8536 /* SKNetWorkRequest.m */,
+			);
+			path = SKNetworkRequestTool;
+			sourceTree = "<group>";
+		};
+		2C6299381F412E68001E8536 /* SKResult */ = {
+			isa = PBXGroup;
+			children = (
+				2C6299391F412E7A001E8536 /* SKResult.h */,
+				2C62993A1F412E7A001E8536 /* SKResult.m */,
+				2C62994C1F416D8F001E8536 /* SKYYResult.h */,
+				2C62994D1F416D8F001E8536 /* SKYYResult.m */,
+			);
+			path = SKResult;
+			sourceTree = "<group>";
+		};
+		2C6299421F413EF0001E8536 /* SKDateTool */ = {
+			isa = PBXGroup;
+			children = (
+				2C6299461F413F13001E8536 /* SKDateFormatter.h */,
+				2C6299471F413F13001E8536 /* SKDateFormatter.m */,
+			);
+			path = SKDateTool;
+			sourceTree = "<group>";
+		};
+		2C9AA9FC1F21CBCE00A10762 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA011F21CBCE00A10762 /* Functions */,
+				2C9AAA1C1F21CBCE00A10762 /* Main */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		2C9AAA011F21CBCE00A10762 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				2CA9AC0D2009293400B52F7D /* Media */,
+				2C9AAA021F21CBCE00A10762 /* Discovery */,
+				2C9AAA161F21CBCE00A10762 /* HomePage */,
+				2C9AAA191F21CBCE00A10762 /* MyHomePage */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		2C9AAA021F21CBCE00A10762 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA031F21CBCE00A10762 /* GKFeature */,
+				2C9AAA071F21CBCE00A10762 /* SKDiscoveryVC.h */,
+				2C9AAA081F21CBCE00A10762 /* SKDiscoveryVC.m */,
+				2C9AAA091F21CBCE00A10762 /* Test */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		2C9AAA031F21CBCE00A10762 /* GKFeature */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA041F21CBCE00A10762 /* Model */,
+				2C9AAA051F21CBCE00A10762 /* VC */,
+				2C9AAA061F21CBCE00A10762 /* View */,
+			);
+			path = GKFeature;
+			sourceTree = "<group>";
+		};
+		2C9AAA041F21CBCE00A10762 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2CB099C91F434551002C5533 /* SKZodiacChart */,
+				2CB099BF1F43453B002C5533 /* SKBeautyENWord */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C9AAA051F21CBCE00A10762 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				2CB099B81F434454002C5533 /* SKZodiacChart */,
+				2CB099B11F43440D002C5533 /* SKBeautyENWord */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		2C9AAA061F21CBCE00A10762 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C6299521F41859C001E8536 /* SKBeautyENWordCell.h */,
+				2C6299531F41859C001E8536 /* SKBeautyENWordCell.m */,
+				2CB099BC1F434484002C5533 /* SKZodiacChartView.h */,
+				2CB099BD1F434484002C5533 /* SKZodiacChartView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C9AAA091F21CBCE00A10762 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA0A1F21CBCE00A10762 /* Actions */,
+				2C9AAA0D1F21CBCE00A10762 /* Model */,
+				2C9AAA101F21CBCE00A10762 /* VC */,
+				2C9AAA131F21CBCE00A10762 /* View */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		2C9AAA0A1F21CBCE00A10762 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA0B1F21CBCE00A10762 /* SKTarget_PushFile.h */,
+				2C9AAA0C1F21CBCE00A10762 /* SKTarget_PushFile.m */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		2C9AAA0D1F21CBCE00A10762 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA0E1F21CBCE00A10762 /* SKModel.h */,
+				2C9AAA0F1F21CBCE00A10762 /* SKModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2C9AAA101F21CBCE00A10762 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA111F21CBCE00A10762 /* SKTestVC.h */,
+				2C9AAA121F21CBCE00A10762 /* SKTestVC.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		2C9AAA131F21CBCE00A10762 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA141F21CBCE00A10762 /* SKView.h */,
+				2C9AAA151F21CBCE00A10762 /* SKView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2C9AAA161F21CBCE00A10762 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA171F21CBCE00A10762 /* SKHomePageVC.h */,
+				2C9AAA181F21CBCE00A10762 /* SKHomePageVC.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		2C9AAA191F21CBCE00A10762 /* MyHomePage */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA1A1F21CBCE00A10762 /* SKMyHomePageVC.h */,
+				2C9AAA1B1F21CBCE00A10762 /* SKMyHomePageVC.m */,
+			);
+			path = MyHomePage;
+			sourceTree = "<group>";
+		};
+		2C9AAA1C1F21CBCE00A10762 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA1D1F21CBCE00A10762 /* Category */,
+				2C9AAA2E1F21CBCE00A10762 /* Controller */,
+				2C9AAA381F21CBCE00A10762 /* Intercepter */,
+				2C9AAA3B1F21CBCE00A10762 /* Lib */,
+				2C9AAA3C1F21CBCE00A10762 /* Other */,
+				2C9AAA4C1F21CBCE00A10762 /* Tools */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2C9AAA1D1F21CBCE00A10762 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA1E1F21CBCE00A10762 /* SKNSExpands */,
+				2C9AAA251F21CBCE00A10762 /* SKUIExpands */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		2C9AAA1E1F21CBCE00A10762 /* SKNSExpands */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA1F1F21CBCE00A10762 /* NSDate+GetTimeStampMethods.h */,
+				2C9AAA201F21CBCE00A10762 /* NSDate+GetTimeStampMethods.m */,
+				2C9AAA211F21CBCE00A10762 /* NSString+getIPAddress.h */,
+				2C9AAA221F21CBCE00A10762 /* NSString+getIPAddress.m */,
+				2C9AAA231F21CBCE00A10762 /* NSString+MD5Methods.h */,
+				2C9AAA241F21CBCE00A10762 /* NSString+MD5Methods.m */,
+			);
+			path = SKNSExpands;
+			sourceTree = "<group>";
+		};
+		2C9AAA251F21CBCE00A10762 /* SKUIExpands */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA261F21CBCE00A10762 /* UIBezierPath+Expands.h */,
+				2C9AAA271F21CBCE00A10762 /* UIBezierPath+Expands.m */,
+				2C9AAA281F21CBCE00A10762 /* UIButton+ExpandHitPosition.h */,
+				2C9AAA291F21CBCE00A10762 /* UIButton+ExpandHitPosition.m */,
+				2C9AAA2A1F21CBCE00A10762 /* UIImage+CompressMethods.h */,
+				2C9AAA2B1F21CBCE00A10762 /* UIImage+CompressMethods.m */,
+				2C9AAA2C1F21CBCE00A10762 /* UIImage+Expands.h */,
+				2C9AAA2D1F21CBCE00A10762 /* UIImage+Expands.m */,
+			);
+			path = SKUIExpands;
+			sourceTree = "<group>";
+		};
+		2C9AAA2E1F21CBCE00A10762 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA2F1F21CBCE00A10762 /* SKBaseVC */,
+				2C9AAA341F21CBCE00A10762 /* SKRoot */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2C9AAA2F1F21CBCE00A10762 /* SKBaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA301F21CBCE00A10762 /* SKUINavigationController.h */,
+				2C9AAA311F21CBCE00A10762 /* SKUINavigationController.m */,
+				2C9AAA321F21CBCE00A10762 /* SKUITabBarController.h */,
+				2C9AAA331F21CBCE00A10762 /* SKUITabBarController.m */,
+			);
+			path = SKBaseVC;
+			sourceTree = "<group>";
+		};
+		2C9AAA341F21CBCE00A10762 /* SKRoot */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA351F21CBCE00A10762 /* SKRootVC */,
+			);
+			path = SKRoot;
+			sourceTree = "<group>";
+		};
+		2C9AAA351F21CBCE00A10762 /* SKRootVC */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA361F21CBCE00A10762 /* SKRootVC.h */,
+				2C9AAA371F21CBCE00A10762 /* SKRootVC.m */,
+			);
+			path = SKRootVC;
+			sourceTree = "<group>";
+		};
+		2C9AAA381F21CBCE00A10762 /* Intercepter */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA391F21CBCE00A10762 /* SKVCIntercepter.h */,
+				2C9AAA3A1F21CBCE00A10762 /* SKVCIntercepter.m */,
+			);
+			path = Intercepter;
+			sourceTree = "<group>";
+		};
+		2C9AAA3B1F21CBCE00A10762 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		2C9AAA3C1F21CBCE00A10762 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA3D1F21CBCE00A10762 /* SKAppDelegate */,
+				2C9AAA401F21CBCE00A10762 /* SKConfig */,
+				2C9AAA481F21CBCE00A10762 /* SKInfoPlist */,
+				2C9AAA4A1F21CBCE00A10762 /* SKMain */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2C9AAA3D1F21CBCE00A10762 /* SKAppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA3E1F21CBCE00A10762 /* SKAppDelegate.h */,
+				2C9AAA3F1F21CBCE00A10762 /* SKAppDelegate.m */,
+			);
+			path = SKAppDelegate;
+			sourceTree = "<group>";
+		};
+		2C9AAA401F21CBCE00A10762 /* SKConfig */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA411F21CBCE00A10762 /* SKDebug.h */,
+				2C9AAA421F21CBCE00A10762 /* SKEnum.h */,
+				2C9AAA431F21CBCE00A10762 /* SKHeadFile.h */,
+				2C9AAA441F21CBCE00A10762 /* SKMacro.h */,
+				2C9AAA451F21CBCE00A10762 /* SKResource.h */,
+				2C9AAA461F21CBCE00A10762 /* SKShareKey.h */,
+				2C9AAA471F21CBCE00A10762 /* SKUserDefault.h */,
+			);
+			path = SKConfig;
+			sourceTree = "<group>";
+		};
+		2C9AAA481F21CBCE00A10762 /* SKInfoPlist */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA491F21CBCE00A10762 /* Info.plist */,
+			);
+			path = SKInfoPlist;
+			sourceTree = "<group>";
+		};
+		2C9AAA4A1F21CBCE00A10762 /* SKMain */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA4B1F21CBCE00A10762 /* main.m */,
+			);
+			path = SKMain;
+			sourceTree = "<group>";
+		};
+		2C9AAA4C1F21CBCE00A10762 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2C6299421F413EF0001E8536 /* SKDateTool */,
+				2C6299381F412E68001E8536 /* SKResult */,
+				2C6299371F412A6D001E8536 /* SKNetworkRequestTool */,
+				2C9AAA4D1F21CBCE00A10762 /* SKDispatcherTool */,
+				2C9AAA561F21CBCE00A10762 /* SKJSONDicTransition */,
+				2C9AAA591F21CBCE00A10762 /* SKNSPredicateTool */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2C9AAA4D1F21CBCE00A10762 /* SKDispatcherTool */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA4E1F21CBCE00A10762 /* SKDispatcher */,
+				2C9AAA531F21CBCE00A10762 /* SKDispatcherCategory */,
+			);
+			path = SKDispatcherTool;
+			sourceTree = "<group>";
+		};
+		2C9AAA4E1F21CBCE00A10762 /* SKDispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA4F1F21CBCE00A10762 /* SKDispatcher.h */,
+				2C9AAA501F21CBCE00A10762 /* SKDispatcher.m */,
+				2C9AAA511F21CBCE00A10762 /* SKDispatcherManager.h */,
+				2C9AAA521F21CBCE00A10762 /* SKDispatcherManager.m */,
+			);
+			path = SKDispatcher;
+			sourceTree = "<group>";
+		};
+		2C9AAA531F21CBCE00A10762 /* SKDispatcherCategory */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA541F21CBCE00A10762 /* SKDispatcher+TestVCActions.h */,
+				2C9AAA551F21CBCE00A10762 /* SKDispatcher+TestVCActions.m */,
+			);
+			path = SKDispatcherCategory;
+			sourceTree = "<group>";
+		};
+		2C9AAA561F21CBCE00A10762 /* SKJSONDicTransition */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA571F21CBCE00A10762 /* SKJSONDicTransition.h */,
+				2C9AAA581F21CBCE00A10762 /* SKJSONDicTransition.m */,
+			);
+			path = SKJSONDicTransition;
+			sourceTree = "<group>";
+		};
+		2C9AAA591F21CBCE00A10762 /* SKNSPredicateTool */ = {
+			isa = PBXGroup;
+			children = (
+				2C9AAA5A1F21CBCE00A10762 /* SKCheckTool.h */,
+				2C9AAA5B1F21CBCE00A10762 /* SKCheckTool.m */,
+			);
+			path = SKNSPredicateTool;
+			sourceTree = "<group>";
+		};
+		2CA9AC0D2009293400B52F7D /* Media */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		2CB099B11F43440D002C5533 /* SKBeautyENWord */ = {
+			isa = PBXGroup;
+			children = (
+				2CB099B21F43440D002C5533 /* SKBeautyENWordTableViewHandle.h */,
+				2CB099B31F43440D002C5533 /* SKBeautyENWordTableViewHandle.m */,
+				2CB099B41F43440D002C5533 /* SKBeautyENWordVC.h */,
+				2CB099B51F43440D002C5533 /* SKBeautyENWordVC.m */,
+			);
+			path = SKBeautyENWord;
+			sourceTree = "<group>";
+		};
+		2CB099B81F434454002C5533 /* SKZodiacChart */ = {
+			isa = PBXGroup;
+			children = (
+				2CB099B91F434461002C5533 /* SKZodiacChartVC.h */,
+				2CB099BA1F434461002C5533 /* SKZodiacChartVC.m */,
+			);
+			path = SKZodiacChart;
+			sourceTree = "<group>";
+		};
+		2CB099BF1F43453B002C5533 /* SKBeautyENWord */ = {
+			isa = PBXGroup;
+			children = (
+				2CB099C01F43453B002C5533 /* SKBeautyENWordModel.h */,
+				2CB099C11F43453B002C5533 /* SKBeautyENWordModel.m */,
+				2CB099C21F43453B002C5533 /* SKBeautyENWordRequest.h */,
+				2CB099C31F43453B002C5533 /* SKBeautyENWordRequest.m */,
+				2CB099C41F43453B002C5533 /* SKBeautyENWordResult.h */,
+				2CB099C51F43453B002C5533 /* SKBeautyENWordResult.m */,
+			);
+			path = SKBeautyENWord;
+			sourceTree = "<group>";
+		};
+		2CB099C91F434551002C5533 /* SKZodiacChart */ = {
+			isa = PBXGroup;
+			children = (
+				2CB099CD1F434582002C5533 /* SKZodiacChartModel.h */,
+				2CB099CE1F434582002C5533 /* SKZodiacChartModel.m */,
+				2CB099D01F4345D4002C5533 /* SKZodiacChartRequest.h */,
+				2CB099D11F4345D4002C5533 /* SKZodiacChartRequest.m */,
+				2CB099D31F434E69002C5533 /* SKZodiacChartResult.h */,
+				2CB099D41F434E69002C5533 /* SKZodiacChartResult.m */,
+			);
+			path = SKZodiacChart;
+			sourceTree = "<group>";
+		};
+		A06BB3A25791F4459B66E221 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B7A74799440632AFBDF1358 /* Pods-SKNewsProject.debug.xcconfig */,
+				73726727775275F366F45C42 /* Pods-SKNewsProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FAD7534C4C75CE1CE1A64280 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				238E826C4D7E4CA40FF124F6 /* libPods-SKNewsProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C412AE61DBEED33008A1E36 /* SKNewsProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C412AFE1DBEED34008A1E36 /* Build configuration list for PBXNativeTarget "SKNewsProject" */;
+			buildPhases = (
+				7AF0A4A9665608E1C0F7C8F4 /* [CP] Check Pods Manifest.lock */,
+				2C412AE31DBEED33008A1E36 /* Sources */,
+				2C412AE41DBEED33008A1E36 /* Frameworks */,
+				2C412AE51DBEED33008A1E36 /* Resources */,
+				F8C682206063306FED22736E /* [CP] Embed Pods Frameworks */,
+				EFD5B68AA0FE68A87CAF2C76 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKNewsProject;
+			productName = SKNewsProject;
+			productReference = 2C412AE71DBEED33008A1E36 /* SKNewsProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C412ADF1DBEED33008A1E36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SK;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = shavekevin;
+				TargetAttributes = {
+					2C412AE61DBEED33008A1E36 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = M6834L34N9;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 2C412AE21DBEED33008A1E36 /* Build configuration list for PBXProject "SKNewsProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C412ADE1DBEED33008A1E36;
+			productRefGroup = 2C412AE81DBEED33008A1E36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C412AE61DBEED33008A1E36 /* SKNewsProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C412AE51DBEED33008A1E36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C412AF71DBEED33008A1E36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7AF0A4A9665608E1C0F7C8F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SKNewsProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFD5B68AA0FE68A87CAF2C76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SKNewsProject/Pods-SKNewsProject-resources.sh",
+				"${PODS_ROOT}/FormatterKit/FormatterKit/FormatterKit.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/ZFPlayer/ZFPlayer/ZFPlayer.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SKNewsProject/Pods-SKNewsProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C682206063306FED22736E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SKNewsProject/Pods-SKNewsProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C412AE31DBEED33008A1E36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CB099B71F43440D002C5533 /* SKBeautyENWordVC.m in Sources */,
+				2CB099D51F434E69002C5533 /* SKZodiacChartResult.m in Sources */,
+				2C9AAA611F21CBCE00A10762 /* SKHomePageVC.m in Sources */,
+				2CB099D21F4345D4002C5533 /* SKZodiacChartRequest.m in Sources */,
+				2C9AAA631F21CBCE00A10762 /* NSDate+GetTimeStampMethods.m in Sources */,
+				2C9AAA6A1F21CBCE00A10762 /* SKUINavigationController.m in Sources */,
+				2C9AAA741F21CBCE00A10762 /* SKJSONDicTransition.m in Sources */,
+				2C9AAA5F1F21CBCE00A10762 /* SKTestVC.m in Sources */,
+				2CB099C81F43453B002C5533 /* SKBeautyENWordResult.m in Sources */,
+				2C9AAA6D1F21CBCE00A10762 /* SKVCIntercepter.m in Sources */,
+				2C62993B1F412E7A001E8536 /* SKResult.m in Sources */,
+				2C9AAA641F21CBCE00A10762 /* NSString+getIPAddress.m in Sources */,
+				2CB099B61F43440D002C5533 /* SKBeautyENWordTableViewHandle.m in Sources */,
+				2C9AAA711F21CBCE00A10762 /* SKDispatcher.m in Sources */,
+				2CB099CF1F434582002C5533 /* SKZodiacChartModel.m in Sources */,
+				2C9AAA5E1F21CBCE00A10762 /* SKModel.m in Sources */,
+				2C9AAA751F21CBCE00A10762 /* SKCheckTool.m in Sources */,
+				2C6299541F41859C001E8536 /* SKBeautyENWordCell.m in Sources */,
+				2C6299481F413F13001E8536 /* SKDateFormatter.m in Sources */,
+				2C9AAA721F21CBCE00A10762 /* SKDispatcherManager.m in Sources */,
+				2C9AAA651F21CBCE00A10762 /* NSString+MD5Methods.m in Sources */,
+				2C62993E1F412F82001E8536 /* SKNetWorkRequest.m in Sources */,
+				2C9AAA6C1F21CBCE00A10762 /* SKRootVC.m in Sources */,
+				2CB099C61F43453B002C5533 /* SKBeautyENWordModel.m in Sources */,
+				2C9AAA5D1F21CBCE00A10762 /* SKTarget_PushFile.m in Sources */,
+				2C9AAA701F21CBCE00A10762 /* main.m in Sources */,
+				2C9AAA6E1F21CBCE00A10762 /* SKAppDelegate.m in Sources */,
+				2CB099BB1F434461002C5533 /* SKZodiacChartVC.m in Sources */,
+				2C9AAA661F21CBCE00A10762 /* UIBezierPath+Expands.m in Sources */,
+				2C9AAA621F21CBCE00A10762 /* SKMyHomePageVC.m in Sources */,
+				2C9AAA5C1F21CBCE00A10762 /* SKDiscoveryVC.m in Sources */,
+				2C62994E1F416D8F001E8536 /* SKYYResult.m in Sources */,
+				2C9AAA671F21CBCE00A10762 /* UIButton+ExpandHitPosition.m in Sources */,
+				2CB099BE1F434484002C5533 /* SKZodiacChartView.m in Sources */,
+				2C9AAA691F21CBCE00A10762 /* UIImage+Expands.m in Sources */,
+				2C9AAA6B1F21CBCE00A10762 /* SKUITabBarController.m in Sources */,
+				2C9AAA681F21CBCE00A10762 /* UIImage+CompressMethods.m in Sources */,
+				2C9AAA601F21CBCE00A10762 /* SKView.m in Sources */,
+				2CB099C71F43453B002C5533 /* SKBeautyENWordRequest.m in Sources */,
+				2C9AAA731F21CBCE00A10762 /* SKDispatcher+TestVCActions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C412AF81DBEED34008A1E36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C412AF91DBEED34008A1E36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C412AFC1DBEED34008A1E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C412AFD1DBEED34008A1E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C412AFF1DBEED34008A1E36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7A74799440632AFBDF1358 /* Pods-SKNewsProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: zhiwei hou (XZK3H65NGQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: zhiwei hou (XZK3H65NGQ)";
+				DEVELOPMENT_TEAM = M6834L34N9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SKNewsProject/Class/Main/Other/SKConfig/SKHeadFile.h";
+				INFOPLIST_FILE = "$(SRCROOT)/SKNewsProject/Class/Main/Other/SKInfoPlist/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SKNewsProject/Class/Main/Lib/MTASDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shavekevin.socialapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fe32bb17-989f-4756-b83a-4b7a4b78fc14";
+				PROVISIONING_PROFILE_SPECIFIER = com.socialappNS;
+			};
+			name = Debug;
+		};
+		2C412B001DBEED34008A1E36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73726727775275F366F45C42 /* Pods-SKNewsProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: zhiwei hou (XZK3H65NGQ)";
+				DEVELOPMENT_TEAM = M6834L34N9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SKNewsProject/Class/Main/Other/SKConfig/SKHeadFile.h";
+				INFOPLIST_FILE = "$(SRCROOT)/SKNewsProject/Class/Main/Other/SKInfoPlist/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SKNewsProject/Class/Main/Lib/MTASDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shavekevin.socialapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fe32bb17-989f-4756-b83a-4b7a4b78fc14";
+				PROVISIONING_PROFILE_SPECIFIER = com.socialappNS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C412AE21DBEED33008A1E36 /* Build configuration list for PBXProject "SKNewsProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C412AFC1DBEED34008A1E36 /* Debug */,
+				2C412AFD1DBEED34008A1E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C412AFE1DBEED34008A1E36 /* Build configuration list for PBXNativeTarget "SKNewsProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C412AFF1DBEED34008A1E36 /* Debug */,
+				2C412B001DBEED34008A1E36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C412ADF1DBEED33008A1E36 /* Project object */;
+}

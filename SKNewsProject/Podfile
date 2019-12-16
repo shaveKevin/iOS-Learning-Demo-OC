@@ -1,0 +1,28 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+inhibit_all_warnings!
+
+target 'SKNewsProject' do
+    
+pod 'YYText', '~> 1.0.5'
+pod 'YYModel', '~> 1.0.4'
+pod 'YYWebImage', '~> 1.0.4'
+pod 'Masonry', '~> 1.0.1'
+pod 'MJRefresh', '~> 3.1.12'
+pod 'JSONKit-NoWarning', '~> 1.2'
+pod 'FMDB', '~> 2.6.2'
+pod 'SKNetworkRequest', '~> 0.0.7'
+pod 'DZNEmptyDataSet'
+pod 'UITableView+FDTemplateLayoutCell'
+pod 'Aspects', '~> 1.4.1'
+pod 'MLeaksFinder', '0.2.1'
+pod 'SDVersion', '~> 3.6'
+pod 'MBProgressHUD', '0.9.2'
+pod 'FormatterKit', '~> 1.8.1'
+pod 'ZFPlayer'
+pod 'Bugly'
+
+end
+
